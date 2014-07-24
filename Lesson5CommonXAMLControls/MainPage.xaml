@@ -1,0 +1,151 @@
+﻿<Page
+    x:Class="Lesson5CommonXAMLControls.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lesson5CommonXAMLControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+    
+        <TextBlock
+            x:Name="MyTextBlock"
+            HorizontalAlignment="Left"
+            Margin="32,78,0,0"
+            TextWrapping="Wrap"
+            Text=""
+            FontSize="24"
+            VerticalAlignment="Top"/>
+        
+        <Button 
+            x:Name="MyButton"
+            Content="Button"
+            HorizontalAlignment="Left"
+            Margin="23,127,0,0"
+            VerticalAlignment="Top"
+            Click="MyButton_OnClick"/>
+        
+        <TextBox 
+            x:Name="MyTextBox"
+            HorizontalAlignment="Left"
+            Margin="32,197,0,0"
+            TextWrapping="NoWrap"
+            Text=""
+            InputScope="TelephoneNumber"
+            VerticalAlignment="Top"
+            Width="120"/>
+
+        <ComboBox 
+            x:Name="MyComboBox"
+            HorizontalAlignment="Left"
+            Margin="32,260,0,0"
+            VerticalAlignment="Top"
+            Width="120">
+            <!-- Bis 4 Items kann aus auswahl unter der Combobox ausgewählt werden (Phone)-->
+            <ComboBoxItem Content="First Item"/>
+            <ComboBoxItem Content="Second Item" IsSelected="True"/>
+            <ComboBoxItem Content="Third Item"/>
+            <ComboBoxItem Content="Fourth Item"/>
+            <!-- Ab hier wird ein eignes Flipinfo-feld ausgegeben-->
+            <ComboBoxItem Content="Fifth Item"/>
+            <ComboBoxItem Content="Sixth Item"/>          
+        </ComboBox>
+
+        <CheckBox 
+            x:Name="MyCheckbox"
+            HorizontalAlignment="Left"
+            Margin="197,127,0,0"
+            VerticalAlignment="Top"
+            Content="CheckBox" />
+
+        <RadioButton 
+            x:Name="MyRadioButton1"
+            HorizontalAlignment="Left"
+            Margin="197,198,0,0"
+            VerticalAlignment="Top"
+            Content="RradioButton 1"/>
+
+        <RadioButton 
+            x:Name="MyRadioButton2"
+            HorizontalAlignment="Left"
+            Margin="197,239,0,0"
+            VerticalAlignment="Top"
+            Content="RadioButton 2"/>
+        
+        <!--
+        <RadioButton 
+            x:Name="MyRadioButton3"
+            HorizontalAlignment="Left"
+            Margin="197,280,0,0"
+            VerticalAlignment="Top"
+            Content="RradioButton 3" 
+            GroupName="SecoundGroup"/>
+
+        <RadioButton 
+            x:Name="MyRadioButton4"
+            HorizontalAlignment="Left"
+            Margin="197,320,0,0"
+            VerticalAlignment="Top"
+            Content="RadioButton 4"
+            GroupName="SecoundGroup"/>
+        -->
+        
+        <DatePicker
+            x:Name="MyDatePicker"
+            HorizontalAlignment="Left"
+            Margin="32,349,0,0"
+            VerticalAlignment="Top" 
+            DateChanged="MyDatePicker_OnDateChanged"/>
+
+        <TimePicker
+            x:Name="MyTimePicker"
+            HorizontalAlignment="Left"
+            Margin="160,349,0,0"
+            VerticalAlignment="Top" />
+
+        <Image           
+            x:Name="MyImage"
+            HorizontalAlignment="Left"
+            Margin="32,429,0,0"
+            VerticalAlignment="Top" 
+            Width="100"
+            Height="100"
+            Source="Assets/status.png"/>
+
+        <Slider             
+            x:Name="MySlider"
+            HorizontalAlignment="Left"
+            Margin="194,424,0,0"
+            VerticalAlignment="Top" 
+            Width="168"
+            Maximum="100"/>
+        
+        <ProgressBar 
+            x:Name="MyProgressBar"
+            HorizontalAlignment="Left"
+            Height="10"
+            Margin="195,483,0,0"
+            VerticalAlignment="Top"
+            Width="100"
+            Maximum="100"
+            Value="{Binding ElementName=MySlider, Path=Value, Mode=OneWay}"/>
+        
+        <ProgressRing 
+            x:Name="MyProgressRing"
+            HorizontalAlignment="Left"
+            Margin="32,526,0,0"
+            VerticalAlignment="Top"
+            Height="76"
+            Width="76"/>
+        
+        <ToggleButton 
+            x:Name="MyToggleButton"
+            Content="ToggleButton"
+            HorizontalAlignment="Left"
+            Margin="181,573,0,0"
+            VerticalAlignment="Top"
+            Click="MyToggleButton_OnClick"/>
+    </Grid>
+</Page>
