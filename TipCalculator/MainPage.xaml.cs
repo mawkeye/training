@@ -22,11 +22,16 @@ namespace TipCalculator
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private TipClass Tip;
+
         public MainPage()
         {
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
+            Tip = new TipClass();
+            
         }
 
         /// <summary>
@@ -47,22 +52,38 @@ namespace TipCalculator
 
         private void BillAmountTextBox_OnLostFocus(object sender, RoutedEventArgs e)
         {
+            BillAmountTextBox.Text = Tip.BillAmount;
             //throw new NotImplementedException();
         }
 
         private void BillAmountTextBox_OnTextChanged(object sender, TextChangedEventArgs e)
         {
+            //TODO FIX THIS!!
+
+            performCalculation();
             //throw new NotImplementedException();
         }
 
         private void BillAmountTextBox_OnGotFocus(object sender, RoutedEventArgs e)
         {
+            BillAmountTextBox.Text = "";
             //throw new NotImplementedException();
         }
 
         private void RadioButton_Click(object sender, RoutedEventArgs e)
         {
+            performCalculation();
             //throw new NotImplementedException();
+        }
+
+        private void performCalculation()
+        {
+            var selectedRadio = MyStackPanel.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked == true);
+
+            Tip.CalculateTip(BillAmountTextBox.Text, double.Parse(selectedRadio.Tag.ToString()));
+
+            AmountToTipTextBlock.Text = Tip.TipAmount;
+            TotalTextBlock.Text = Tip.TotalAmount;
         }
     }
 }

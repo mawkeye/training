@@ -36,13 +36,13 @@
                        Text="Bill Amount"
                        FontSize="20" />
             <TextBox x:Name="BillAmountTextBox"
-                     Text="€0.00"
+                     Text="0,00 €"
                      TextAlignment="Right"
                      HorizontalAlignment="Left"
                      TextWrapping="Wrap"
                      VerticalAlignment="Top"
                      InputScope="Number"
-                     Width="100"
+                     Width="150"
                      FontSize="24"
                      LostFocus="BillAmountTextBox_OnLostFocus" 
                      TextChanged="BillAmountTextBox_OnTextChanged"
@@ -56,18 +56,18 @@
                        Margin="0,20,0,0" />
             
             <RadioButton Content="10% - Horrible Service"
-                         Tag="0.1"
+                         Tag="0,1"
                          GroupName="percentRadio"
                          Click="RadioButton_Click" />
             
             <RadioButton Content="15% - Acceptable Service"
-                         Tag="0.15"
+                         Tag="0,15"
                          GroupName="percentRadio"
                          IsChecked="True"
                          Click="RadioButton_Click" />
             
             <RadioButton Content="20% - Great Service"
-                         Tag="0.2"
+                         Tag="0,2"
                          GroupName="percentRadio"
                          Click="RadioButton_Click" />
 
