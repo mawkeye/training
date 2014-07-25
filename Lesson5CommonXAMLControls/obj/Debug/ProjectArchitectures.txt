@@ -1,1 +1,1 @@
-D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\Lesson5CommonXAMLControls\Lesson5CommonXAMLControls.csproj;neutral
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\Lesson5CommonXAMLControls\Lesson5CommonXAMLControls.csproj;neutral

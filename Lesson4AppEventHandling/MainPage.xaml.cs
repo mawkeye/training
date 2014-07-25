@@ -44,5 +44,10 @@ namespace Lesson4AppEventHandling
             // Wenn Sie den NavigationHelper verwenden, der bei einigen Vorlagen zur Verfügung steht,
             // wird dieses Ereignis für Sie behandelt.
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

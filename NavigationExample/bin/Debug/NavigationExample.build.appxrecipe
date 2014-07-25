@@ -1,64 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SLEIPNIR</Machine>
-    <WindowsUser>martin</WindowsUser>
+    <Machine>WODAN</Machine>
+    <WindowsUser>Martin</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>a0bd1db3-a4ea-4277-bd42-fb7dcc987495</PackageIdentityName>
-    <IntermediateOutputPath>D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\NavigationExample.exe">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\NavigationExample.exe">
       <PackagePath>NavigationExample.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\Page2.xbf">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\Page2.xbf">
       <PackagePath>Page2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\Page3.xbf">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\Page3.xbf">
       <PackagePath>Page3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\NavigationExample.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\NavigationExample.xr.xml">
       <PackagePath>NavigationExample.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ROTA\source\Workspace\Visual Studio 2013\Workspace\training\NavigationExample\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Martin\Documents\Visual Studio 2013\Projects\Training\training\NavigationExample\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

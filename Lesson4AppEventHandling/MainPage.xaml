@@ -12,8 +12,6 @@
         <Button Content="Button"
                 HorizontalAlignment="Left"
                 Margin="50,50,0,0"
-                Click="">
-            
-        </Button>
+                Click="ButtonBase_OnClick"/>
     </Grid>
 </Page>
